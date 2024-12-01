@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">LIBRARY PAGE</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+        <h1>Welcome!!!</h1>
+        <h2><b>Today's Research,</b></h2>
+        <h2><b>Tomorrow's Innovation</b></h2>
+        <p>Accelerating research discovery to shape a better future</p>
+        <button onclick="location.href='#registration'">Explore Now</button>
+    </div>
+    <img src="C:\Users\ashic\Downloads\Screenshot 2024-11-30 214423.png" alt="Library">
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="services" id="features">
+        <div class="service-cards">
+            <!-- Service Card 1 -->
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/1248521772/photo/gifted-black-girl-uses-laptop-writes-notes-for-the-paper-essay-study-for-class-assignment.jpg?s=612x612&w=0&k=20&c=A0edhfi3pw8twj7mrANFmQ0V_opWS72k7cgMr0NyoZI=" alt="User Management">
+                <h3>Users</h3>
+                <p>Manage and access user profiles efficiently.</p>
+            </div>
+            <!-- Service Card 2 -->
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/949118068/photo/books.jpg?s=612x612&w=0&k=20&c=1vbRHaA_aOl9tLIy6P2UANqQ27KQ_gSF-BH0sUjQ730=" alt="Books">
+                <h3>Books</h3>
+                <p>Explore thousands of books in our collection.</p>
+            </div>
+            <!-- Service Card 3 -->
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/450233085/vector/business-graph-growth-progress-and-blue-arrow.jpg?s=612x612&w=0&k=20&c=sr8rwB1MMjFvb0w8mDGK_QWbSiiFE5TkmLb_AiPKKOU=" alt="Reports">
+                <h3>Reports</h3>
+                <p>Generate detailed reports of library activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section class="registration" id="registration">
+        <h2>Register for Library Access</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+            </div>
+            <button type="submit" class="register-button">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>Join Us</p>
+        <ul class="socials">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
